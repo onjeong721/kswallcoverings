@@ -1,0 +1,130 @@
+body{
+}
+.wrap{
+  margin: 0 auto;
+  max-width: 1520px;
+}
+
+/* 폰트 */
+li{
+  list-style: none;
+}
+.h1{
+  font-size: 64px;
+}
+.h2{
+  font-size: 54px;
+  font-family: "MavenProExtraBold";
+}
+.h3{
+  font-size: 44px;
+}
+.h4{
+  font-size: 34px;
+}
+.h5{
+  font-size: 24px;
+}
+.h6{
+  font-size: 14px;
+}
+.p{
+
+}
+.artH{
+  
+}
+
+
+/* 패딩 */
+.paddingT100{
+  padding-top: 100px;
+}
+.paddingB50{
+  padding-bottom: 50px;
+}
+
+/* 마진 */
+.margin50{
+  margin: 50px;
+}
+.marginT50{
+  margin-top: 50px;
+}
+.marginR50{
+  margin-right: 50px;
+}
+.marginB50{
+  margin-bottom: 50px 
+}
+.marginL50{
+  margin-left: 50px;
+}
+
+/* 트랜스폼 */
+.t80{
+  transform: translateY(-20%);
+}
+
+/* 블럭,인라인 */
+.block{
+  display: block;
+}
+
+/* 정렬 */
+.flex{
+  display: flex;
+}
+.between{
+  justify-content: space-between;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.center{
+  justify-content: center;
+}
+.column{
+  flex-direction: column;
+}
+.grid24{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto auto auto auto;
+}
+.align-center{
+  align-items: center;
+}
+
+/* 텍스트정렬 */
+.text-center{
+  text-align: center;
+}
+
+/* 둥근모서리 */
+.borderR20{
+  border-radius: 20px
+}
+
+/* 라인 */
+.line{
+
+}
+
+/* 안보이게 */
+.hide{
+  display: none !important;
+}
+
+/* 높이 */
+.vh100{
+  height: 100vh;
+  box-sizing: border-box;
+}
+.h100{
+  height: 100%;
+}
+.max-w{
+  max-width: 1360px;
+}
+

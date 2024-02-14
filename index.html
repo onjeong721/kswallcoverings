@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS벽지</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- https://ionic.io/ionicons/v1 -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/collection.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/sns.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("section#collection .wrap ul.brand li ul.list li a").click(function(){
+                $(this).next().show();
+                $(this).parent().parent().siblings().children("article").hide();
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+   <!-- 헤더 -->
+    <header>
+        <div class="wrap flex">
+            <h1>KS벽지</h1>
+            <ul class="lang flex">
+                <li><a href="">KOR</a></li>
+                <li><a href="">ENG</a></li>
+            </ul>
+            <ul class="menu flex">
+                <li><a href="">케이에스더블유</a></li>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">제품소개</a></li>
+                <li><a href="">홍보센터</a></li>
+                <li><a href="">인테리어</a></li>
+                <li><a href="">고객센터</a></li>
+            </ul>
+            <ul class="search flex">
+                <li><a href="">위시리스트</a></li>
+                <li><a href="">검색</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="title">
+        <div class="title-main flex">
+            <h2>제품 미리보기</h2>
+            <div class="title-txt flex column">
+                <h3>벨루체</h3>
+                <p>공간에 나만의 개성을 입히다</p>
+                <span>#친환경#합지벽지#모던디자인#심플한컬러</span>
+            </div>
+            <img src="img/titleback.jpg" alt="">
+        </div>
+    </div>
+    <main>
+        <!-- 컬렉션 -->
+        <section id="collection" class="paddingT100 paddingB50">
+            <div class="wrap">
+                <h2 class="h2">COLLECTION</h2>
+                <ul class="brand">
+                    <li class="silk">
+                        <h3><a href="">실크 브랜드</a></h3>
+                        <ul class="list">
+                            <li>
+                                <a href="">더뷰 The View</a>
+                                <article>
+                                        <img src="img/test.jpg" alt="더뷰">
+                                        <h4 class="artH">더뷰 The View</h4>
+                                        <p>더뷰는 스타일리시한 컬러와 패턴 디자인으로
+                                            트렌디함을 갖춘 고급 실크벽지 컬렉션입니다.
+                                            
+                                            내 공간을 특별하게 만드는 한 끗 차이.
+                                            더뷰가 수놓은 감각적인 디자인으로
+                                            내가 가장 좋아하는 공간을 만들어보세요.</p>
+                                        <span>
+                                            <a href="">3048-7</a>
+                                            <a href="">3033-2</a>
+                                            <a href="">3036-2</a>
+                                        </span>
+                                </article>
+                            </li>
+                            <li>
+                                <a href="">이룸 E Room</a>
+                                <article>
+                                        <img src="img/test.jpg" alt="더뷰">
+                                        <h4 class="artH">이룸 E Room</h4>
+                                        <p>"나만의 공간을 이루다"<br>이룸은 다양한 소재감과 세련된 컬러를 활용해,
+                                            풍성한 디자인과 고급스러운 컬러의 프리미엄 실크 벽지 컬렉션입니다.
+                                            
+                                            이룸으로 탄생하는 고급스러운 무드.
+                                            프리미엄 벽지의 우아한 멋스러움으로
+                                            한결 더 특별해진 당신만의 공간을 이뤄 나가세요.
+                                        </p>
+                                        <span>
+                                            <a href="">2038-2</a>
+                                            <a href="">2088-7</a>
+                                            <a href="">2088-1</a>
+                                        </span>
+                                </article>
+                            </li>
+                            <li>
+                                <a href="">방염</a>
+                                <article>
+                                    <img src="img/test.jpg" alt="더뷰">
+                                    <h4 class="artH">방염</h4>
+                                    <p>방염 벽지는 뛰어난 안정성은 물론, 친환경 품질인증으로 건강까지 세심하게<br>배려한 실크 벽지 컬렉션입니다.<br><br>국가 안전기준 제품으로 인증된 친환경 방염 벽지.<br>기능을 겸비한 트랜디한 컬러의 제품으로<br>당신에게 안전하고 아름다운 공간을 선사합니다.</p>
+                                    <span>
+                                        <a href="">9029-4</a>
+                                        <a href="">9027-3</a>
+                                        <a href="">9005-1</a>
+                                    </span>
+                                </article>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">합지 브랜드</a></h3>
+                        <ul class="list">
+                            <li class="hapji">
+                                <a href="">벨루체 VELUCE</a>
+                                    <article>
+                                        <img src="img/test.jpg" alt="더뷰">
+                                        <h4 class="artH">벨루체 VELUCE</h4>
+                                        <p>벨루체는 깔끔한 컬러와 모던한 디자인, 풍부한 텍스쳐감까지 겸비한 친환경 합지벽지 컬렉션입니다.
+
+                                            벨루체가 제안하는 합리적인 라이프스타일.
+                                            편안한 내추럴부터 세련된 모던함까지
+                                            벨루체만의 은은하고 따뜻한 감성을 느껴보세요.</p>
+                                        <span>
+                                            <a href="">93451-3</a>
+                                            <a href="">93436-3</a>
+                                            <a href="">93456-3</a>
+                                        </span>
+                                    </article>
+                            </li>
+                            <li>
+                                <a href="">더홈 The Home</a>
+                                    <article>
+                                        <img src="img/test.jpg" alt="더뷰">
+                                        <h4 class="artH">더홈 The Home</h4>
+                                        <p>더홈은 어떠한 공간이던 화사하게 밝혀주는 컬러와 디자인의 소폭 합지벽지 컬렉션입니다.
+
+                                            더홈과 함께 완성하는 나만의 인테리어.
+                                            생기를 불어넣는 산뜻한 디자인으로
+                                            당신의 일상이 더욱 특별해지는 공간을 만들어보세요.</p>
+                                        <span>
+                                            <a href="">5401-7</a>
+                                            <a href="">5403-1</a>
+                                            <a href="">5403-3</a>
+                                        </span>
+                                    </article>
+                                
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="news" class="paddingT100 paddingB50">
+            <div class="wrap">
+                <h2 class="h2">news</h2>
+                <p>KS벽지의 새로운 소식을 전합니다
+                </p>
+                <a href="">뉴스 더보기</a>
+                <div class="container">
+                    <article>
+                        <a href="">
+                            <h4>KS벽지, 2024 합지벽지 신제품 ‘벨루체’ 출시</h4>
+                            <p>친환경 벽지기업 KS벽지는 합지벽지 신제품 ‘벨루체(VELUCE)’를 출시했다고 1일 밝혔다. KS벽지의 합지벽지 대표 브랜드인 ‘벨루체’의 이번 테마는 ‘HOM</p>
+                            <date>2023.12.04</date>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h4>[방송협찬] 힘쎈여자 강남순</h4>
+                            <p class="hide"></p>
+                            <date>2023.10.18</date>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h4>[리빙TV] KS벽지 영상광고</h4>
+                            <p>KS벽지 영상광고가 채널[리빙TV]에서 송출됩니다. 많은 관심 부탁드립니다.</p>
+                            <date>2023.07.18</date>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <h4>KS벽지, 2024 실크벽지 신제품 ‘더뷰(THE VIEW)’ 선봬</h4>
+                            <p>친환경 벽지기업 KS벽지는 2024년 실크벽지 컬렉션 ‘더뷰(THE VIEW)’를 출시했다고 밝혔다.
+                                실크벽지 ‘더뷰’는 ‘머트리얼 라이브러리(Material library)’를 테마로 자신의 라이프 스타일에 맞춰 
+                                새로운 레이아웃으로 완성되어가는 공간을 위한 세분화된 벽지 큐레이션을 제공하고자 한 실크벽지 컬렉션이다.
+                                다채로워진 소비자 니즈를 만족 시키기 위해 기본보다 컬러를 더 세분화하고 질감을 다양화한 점이 특징이다.
+                                
+                                   
+                                
+                                해당 제품은 아늑하고 편안한 분위기를 연출하는 패브릭 제품의 텍스쳐와 컬러를 확대하여 도톰한 원단 질감을 
+                                사실적으로 표현했으며, 현재 트렌드인 페인트 텍스쳐의 다양화를 통해 인기패턴을 더욱 강화했다.
+                                
+                                   
+                                
+                                
+                                   
+                                
+                                이번 컬렉션 일부 패턴에 적용한 스크래치 케어 ‘디펜스’의 경우 스크래치, 탈색, 색 바램 등 시공 후 일상생활 중 발생할 수 있는 벽지의 손상을 최소화 할 수 있도록 했는데, 
+                                이는 KS벽지 개발자들의 오랜 숙원을 실제로 구현한 기술이라는 설명이다. 벽지표면을 강화하여 생활 속 스크래치를 덜어줌으로써 
+                                진한 컬러 시공 시 부담되는 요소와 청소 등 표면관리의 효율성을 높여주기 위해 고안한 것으로 알려졌다.
+                                
+                                   
+                                
+                                한편, KS그룹의 박식순 회장은 KS벽지와 함께 제일벽지를 케이에스더블유로 2021년 합병하고, 지난 해에도 코스모스벽지까지 인수하며 현재 벽지회사 3사를 운영 중이다. 
+                                케이에스더블유는 2023년 11월과 2024년 1월 사이에 S/S 새로운 컬렉션을 순차적으로 선보이고 있다.
+                                 KS벽지는 ‘벨루체(합지)’와 ‘더뷰(실크)’를, 코스모스벽지는 ‘앨리스(합지)’와 ‘모던(실크)’을, 제일벽지는 ‘해피데이(합지)’와 ‘베이직(실크)’를 출시했거나 출시 예정이다.
+                                
+                                   
+                                
+                                또한, 올해 컬렉션들은 현 카바디 국가대표이자 2019 미스코리아 선으로 알려진 우희준과 전속모델 계약을 통해 브랜드 가치를 더욱 극대화하고자 한다는 계획이다.
+                                
+                                   
+                                
+                                박식순 회장은 “각 벽지회사 3사는 벽지 업계에 완전히 정착하고 계속하여 성장세를 보이고 있는 중으로써 많은 관심 바란다”고 전했다.
+                                
+                                   
+                                
+                                최용석 동아닷컴 기자 duck8@donga.com
+                                </p>
+                            <date>2024.01.03</date>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="sns" class="paddingT100 paddingB50">
+            <div class="wrap">
+                <h2 class="h2">SNS</h2>
+                <p>KS벽지의 더 많은 소식을 SNS로 만나보세요</p>
+                <a href="">인스타그램 바로가기</a>
+                <ul>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns1.jpg" alt="2024 올해의 컬러">
+                                <figcaption>2024 올해의 컬러</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns2.jpg" alt="2024 NEW 더뷰 출시">
+                                <figcaption>2024 NEW 더뷰 출시</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns3.jpg" alt="2024 NEW 벨루체 출시">
+                                <figcaption>2024 NEW 벨루체 출시</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns4.jpg" alt="드라마협찬 힘쎈여자 강남순">
+                                <figcaption>[드라마협찬]<br>힘쎈여자 강남순</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns5.jpg" alt="EROOM 2104-5">
+                                <figcaption>[EROOM]<br>2104-5</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns6.jpg" alt="E ROOM 3009-2,3009-22">
+                                <figcaption>[E ROOM] 3009-2,3009-22</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns7.jpg" alt="EROOM 2081-3, 3009-1">
+                                <figcaption>[EROOM]<br>2081-3, 3009-1</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sns8.jpg" alt="EROOM Pastel For Kid">
+                                <figcaption>[EROOM] Pastel For Kid</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <h2>KS벽지</h2>
+            <ul>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">이메일무단수집거부</a></li>
+                <li><a href="">이용약관</a></li>
+            </ul>
+            <address><span>대표자 : 박식순</span>사업자등록번호 : 365-85-01709<br>주소 : 경기도 이천시 장호원읍 서동대로 8798-50<br>대표번호 :  031-642-6111</address>
+            <p>© 2022 KSWALLCOVERINGS ALL Rights Reserved. Created by masstige</p>
+            <select name="패밀리사이트" id="">
+                <h3>패밀리 사이트</h3>
+                <p>KS벽지 패밀리 사이트를 소개합니다.<br>아래계열사를 선택하시면 해당 홈페이지로 이동합니다.</p>
+                <option value="">패밀리 사이트</option>
+                <option value="">KS더블유</option>
+                <option value=""> 제일벽지 </option>
+                <option value="">케이엔피이노텍</option>
+                <option value="">코스모스벽지</option>
+                <option value="">케이엔피물류</option>
+            </select>
+        </div>
+    </footer>

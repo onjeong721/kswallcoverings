@@ -1,0 +1,47 @@
+#title {
+  height: 100%;
+  min-height: 800px;
+  padding-top: 100px;
+}
+#title .title-main {
+  align-items: center;
+  height: 100%;
+  max-width: 1600px;
+  justify-content: start;
+  margin: 0 auto;
+  position: relative;
+}
+#title::before{
+  display: block;
+  content: "";
+  width: 70%;
+  height: 100%;
+  background-color: #EEEBE4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#title .title-main::after{
+    background: url(../img/titleback.jpg) no-repeat right;
+}
+#title .title-main h2 {
+  font-size: 0;
+}
+#title .title-main .title-txt {
+  padding-right: 30px;
+  gap: 20px;
+}
+#title .title-main .title-txt h3 {
+  font-size: 70px;
+}
+#title .title-main .title-txt p {
+  font-size: 25px;
+}
+#title .title-main .title-txt span {
+  font-size: 15px;
+}
+#title .title-main img {
+  width: 1213px;
+  height: 100%;
+}

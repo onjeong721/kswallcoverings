@@ -1,0 +1,54 @@
+header {
+  width: 1903px;
+  height: 100px;
+  position: fixed;
+}
+header .wrap {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1600px;
+}
+header .wrap h1 {
+  width: 146px;
+  height: 45px;
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .wrap ul.lang {
+  
+}
+header .wrap ul.lang li {
+  
+}
+header .wrap ul.lang li a {
+  font-size: 18px;
+  padding: 8px;
+  color: #999999;
+}
+header .wrap ul.menu {
+  height: 100%;
+}
+header .wrap ul.menu li {
+  
+}
+header .wrap ul.menu li a {
+  font-size: 18px;
+  display: block;
+  height: 100%;
+  line-height: 100px;
+  padding: 0 20px;
+  color: #231916;
+}
+header .wrap ul.search {
+  
+}
+header .wrap ul.search li {
+  
+}
+header .wrap ul.search li a {
+  
+  padding: 0 5px;
+}

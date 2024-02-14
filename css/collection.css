@@ -1,0 +1,70 @@
+section#collection {
+
+}
+section#collection .wrap {
+
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+section#collection .wrap h2 {
+  text-align: center;
+}
+section#collection .wrap ul.brand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  position: relative;
+}
+section#collection .wrap ul.brand li{
+
+}
+section#collection .wrap ul.brand li h3 {
+  border-bottom: 2px solid brown;
+  line-height: 5;
+}
+section#collection .wrap ul.brand li h3 a {
+
+}
+section#collection .wrap ul.brand li ul.list {
+  display: flex;
+  justify-content: center;
+}
+section#collection .wrap ul.brand li ul.list li {
+
+}
+section#collection .wrap ul.brand li ul.list li a {
+  padding: 0 20px;
+  line-height: 5;
+}
+section#collection .wrap ul.brand li ul.list li article {
+  position: absolute;
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+}
+section#collection .wrap ul.brand li ul.list li article img {
+
+  grid-column: 1;
+  grid-row: 1 / span 4;
+}
+section#collection .wrap ul.brand li ul.list li article h4 {
+  grid-column: 2;
+  grid-row: 1;
+}
+section#collection .wrap ul.brand li ul.list li article p {
+  grid-column: 2;
+  grid-row: 2;
+}
+section#collection .wrap ul.brand li ul.list li article span {
+  grid-column: 2;
+  grid-row: 3;
+}
+section#collection .wrap ul.brand li ul.list li article span a {
+
+}
+.art{
+
+}
