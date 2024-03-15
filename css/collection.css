@@ -45,6 +45,12 @@ section#collection .wrap ul.brand li ul.list li article {
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
 }
+section#collection .wrap ul.brand li:not(:first-child) ul.list li article{
+  display: none;
+}
+section#collection .wrap ul.brand li ul.list li:not(:first-child) article{
+  display: none;
+}
 section#collection .wrap ul.brand li ul.list li article img {
 
   grid-column: 1;

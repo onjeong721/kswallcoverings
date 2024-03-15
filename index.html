@@ -27,11 +27,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $("section#collection .wrap ul.brand li ul.list li a").click(function(){
-                $(this).next().show();
-                $(this).parent().parent().siblings().children("article").hide();
+            // $("section#collection .wrap ul.brand li ul.list li a").click(function(){
+            //     $(this).next().show();
+            //     $(this).parent().parent().siblings().children("article").hide();
+            //     return false;
+            // });
+        // 컬렉션 메뉴
+            //브랜드 클릭
+            $("section#collection .wrap ul.brand li h3 a").click(function(){
+                $(this).parent().siblings("ul").children("li:first-child").children("article").show().addClass("addgrid");
+                $(this).parent().siblings("ul").children("li:first-child").siblings().children("article").hide().removeClass("addgrid");
+                $(this).parents("li").siblings().children().children().children("article").hide().removeClass("addgrid");
                 return false;
             });
+            //카테고리 클릭
+            $("section#collection .wrap ul.brand li ul.list li a").click(function(){
+                $(this).parent().children("article").show().addClass("addgrid");
+                $(this).parent().siblings().children("article").hide().removeClass("addgrid");
+                // $("section#collection .wrap ul.brand li").siblings().children("ul").children().children("article").hide().removeClass("addgrid");
+                return false;
+            });
+
         });
     </script>
 </head>
@@ -52,6 +68,57 @@
                 <li><a href="">인테리어</a></li>
                 <li><a href="">고객센터</a></li>
             </ul>
+            <div class="sublist">
+                <div class="menu menu1">
+                    <h2 class="hide">케이에스더블유</h2>
+                    <ul class="guide">
+                        <li><a href="">계열사</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu2">
+                    <h2 class="hide">회사소개</h2>
+                    <ul class="guide">
+                        <li><a href="">회사소개</a></li>
+                        <li><a href="">CEO 인사말</a></li>
+                        <li><a href="">LOGO 소개</a></li>
+                        <li><a href="">채용정보</a></li>
+                        <li><a href="">위치안내</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu3">
+                    <h2 class="hide">제품소개</h2>
+                    <ul class="guide">
+                        <li><a href="">제품소개</a></li>
+                        <li><a href="">실크 브랜드</a></li>
+                        <li><a href="">합지 브랜드</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu4">
+                    <h2 class="hide">홍보센터</h2>
+                    <ul class="guide">
+                        <li><a href="">인증 및 수상</a></li>
+                        <li><a href="">뉴스 및 언론홍보</a></li>
+                        <li><a href="">SNS</a></li>
+                        <li><a href="">이벤트</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu5">
+                    <h2 class="hide">인테리어</h2>
+                    <ul class="guide">
+                        <li><a href="">시공사례</a></li>
+                        <li><a href="">인테리어 스타일링</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu6">
+                    <h2 class="hide">고객센터</h2>
+                    <ul class="guide">
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">디자인상담</a></li>
+                        <li><a href="">1:1문의</a></li>
+                        <li><a href="">대리점 찾기</a></li>
+                    </ul>
+                </div>
+            </div>
             <ul class="search flex">
                 <li><a href="">위시리스트</a></li>
                 <li><a href="">검색</a></li>
@@ -135,38 +202,37 @@
                         <ul class="list">
                             <li class="hapji">
                                 <a href="">벨루체 VELUCE</a>
-                                    <article>
-                                        <img src="img/test.jpg" alt="더뷰">
-                                        <h4 class="artH">벨루체 VELUCE</h4>
-                                        <p>벨루체는 깔끔한 컬러와 모던한 디자인, 풍부한 텍스쳐감까지 겸비한 친환경 합지벽지 컬렉션입니다.
+                                <article>
+                                    <img src="img/test.jpg" alt="더뷰">
+                                    <h4 class="artH">벨루체 VELUCE</h4>
+                                    <p>벨루체는 깔끔한 컬러와 모던한 디자인, 풍부한 텍스쳐감까지 겸비한 친환경 합지벽지 컬렉션입니다.
 
-                                            벨루체가 제안하는 합리적인 라이프스타일.
-                                            편안한 내추럴부터 세련된 모던함까지
-                                            벨루체만의 은은하고 따뜻한 감성을 느껴보세요.</p>
-                                        <span>
-                                            <a href="">93451-3</a>
-                                            <a href="">93436-3</a>
-                                            <a href="">93456-3</a>
-                                        </span>
-                                    </article>
+                                        벨루체가 제안하는 합리적인 라이프스타일.
+                                        편안한 내추럴부터 세련된 모던함까지
+                                        벨루체만의 은은하고 따뜻한 감성을 느껴보세요.</p>
+                                    <span>
+                                        <a href="">93451-3</a>
+                                        <a href="">93436-3</a>
+                                        <a href="">93456-3</a>
+                                    </span>
+                                </article>
                             </li>
                             <li>
                                 <a href="">더홈 The Home</a>
-                                    <article>
-                                        <img src="img/test.jpg" alt="더뷰">
-                                        <h4 class="artH">더홈 The Home</h4>
-                                        <p>더홈은 어떠한 공간이던 화사하게 밝혀주는 컬러와 디자인의 소폭 합지벽지 컬렉션입니다.
+                                <article>
+                                    <img src="img/test.jpg" alt="더뷰">
+                                    <h4 class="artH">더홈 The Home</h4>
+                                    <p>더홈은 어떠한 공간이던 화사하게 밝혀주는 컬러와 디자인의 소폭 합지벽지 컬렉션입니다.
 
-                                            더홈과 함께 완성하는 나만의 인테리어.
-                                            생기를 불어넣는 산뜻한 디자인으로
-                                            당신의 일상이 더욱 특별해지는 공간을 만들어보세요.</p>
-                                        <span>
-                                            <a href="">5401-7</a>
-                                            <a href="">5403-1</a>
-                                            <a href="">5403-3</a>
-                                        </span>
-                                    </article>
-                                
+                                        더홈과 함께 완성하는 나만의 인테리어.
+                                        생기를 불어넣는 산뜻한 디자인으로
+                                        당신의 일상이 더욱 특별해지는 공간을 만들어보세요.</p>
+                                    <span>
+                                        <a href="">5401-7</a>
+                                        <a href="">5403-1</a>
+                                        <a href="">5403-3</a>
+                                    </span>
+                                </article>
                             </li>
                         </ul>
                     </li>

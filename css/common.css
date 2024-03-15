@@ -128,3 +128,6 @@ li{
   max-width: 1360px;
 }
 
+.addgrid{
+  display: grid !important;
+}

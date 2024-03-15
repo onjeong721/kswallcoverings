@@ -2,6 +2,7 @@ header {
   width: 1903px;
   height: 100px;
   position: fixed;
+  z-index: 1;
 }
 header .wrap {
   justify-content: space-between;
@@ -41,6 +42,31 @@ header .wrap ul.menu li a {
   line-height: 100px;
   padding: 0 20px;
   color: #231916;
+}
+header .wrap .sublist{
+
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  justify-content: center;
+}
+header .wrap .sublist .menu{
+
+}
+header .wrap .sublist .menu h2{
+
+}
+header .wrap .sublist .menu ul{
+
+}
+header .wrap .sublist .menu ul li{
+
+}
+header .wrap .sublist .menu ul li a{
+
 }
 header .wrap ul.search {
   
