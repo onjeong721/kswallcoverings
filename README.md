@@ -1,9 +1,9 @@
-# 이름
+# KS벽지 웹 페이지 디자인 클론코딩
 <img src="https://github.com/onjeong721/kswallcoverings/assets/150096277/eb58a051-2ec7-478a-a9b6-6c5f2daf8292" width="80%" height="auto"/>
 
 ## 프로젝트 소개
- * 사이트 주소
- * 원본 사이트
+ * 프로젝트 사이트: https://onjeong721.github.io/kswallcoverings/
+ * 원본 사이트: https://www.ksgdw.com/kor/main/main.html
 ## 참여
   | **김민정** |
   | :------: |
@@ -163,12 +163,15 @@ ks벽지
 ```
 
 ## 기간
+2023년 12월 中
 
 ## 개선사항
+
 
 ## 페이지별 기능
 ![setProfile](https://github.com/onjeong721/Bworld/assets/150096277/c3b595a4-b118-4d85-a953-4ad54e162ddd)
 ![qksdmdgud](https://github.com/onjeong721/Bworld/assets/150096277/ed298d74-caf4-4f0d-8256-037c92a77448)
+
 ## 오류개선
 
 ## 후기
